@@ -1,0 +1,36 @@
+.textalign{
+/*	text-align: right;*/
+/*  text-align: centre;*/
+	text-align: justify;
+/*justify ka long sarpite so yin left and right nyi tr */
+}
+
+.textdecoration{
+/*	text-decoration: underline;*/
+/*	text-decoration: overline;*/
+	text-decoration: line-through;
+}
+
+a{
+	text-decoration: none;
+}
+
+.textline{
+	letter-spacing: 3px;
+/*	line-height: 20px;*/
+/*	line-height: 3;*/
+	line-height: 300%;
+}
+
+.textshadow{
+/*	h b v c*/
+/*hor ver blur color*/
+/*	text-shadow: 50px 0px 3px red;*/
+/*	text-shadow: -50px 0px 3px blue;*/
+
+/*	text-shadow: 0px 5px 3px red;*/
+/*	text-shadow: 0px -5px 3px red;*/
+
+
+	text-shadow: 5px 0 3px red, 0px 5px 3px yellow, 0 -5px 5px blue;
+}

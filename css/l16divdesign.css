@@ -1,0 +1,71 @@
+.firstdiv{
+	width: 200px;
+	height: 200px;
+
+	background-color: grey;
+/*	background-color: rgba hsla #codecolor ;*/
+	
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.seconddiv{
+	width: 600px;
+	height: 600px;
+	
+	background-image: url(./../img/cover/dog1.jpg);
+/*	background-repeat: no-repeat;*/
+/*	background-repeat: repeat-x;*/
+	background-repeat: repeat-y;
+
+	background-position: center;
+
+	color: red;
+	border: 1px solid green;
+}
+
+.thirddiv{
+	width: 300px;
+	height: 300px;
+
+/*	can solid*/
+/*  background-color: green;*/
+
+/*	can solid, gradient, color*/
+/*	background: linear-gradient(red,orange);*/
+/*	background: rgba hsla color picker #fff,green;*/
+
+/*  can image gradient*/
+/*	background-image: linear-gradient(#55eb34, rgba(104, 120, 151, 0.69));*/
+
+	background: linear-gradient(
+		-45deg,
+		red,
+		green,
+		blue	
+
+	);
+
+	border: 2px solid red;
+}
+
+.fourthdiv{
+	width: 300px;
+	height: 300px;
+
+/*	background-image: url(./../img/cover/dog2.jpg), linear-gradient(green,red);*/
+	background-image: linear-gradient(
+		45deg,
+		rgba(144, 150, 175, 0.34),
+		rgba(206, 208, 119, 0.34)
+		),url(./../img/cover/dog1.jpg);
+
+
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: 2px solid red;
+
+}

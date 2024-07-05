@@ -1,0 +1,119 @@
+.bdstyle1{
+	border-style: solid;
+}
+
+.bdstyle2{
+	border-style: double;
+}
+
+.bdstyle3{
+	border-style: dotted;
+}
+
+.bdstyle4{
+	border-style: dashed;
+}
+
+.bdstyle5{
+	border-style: inset;
+}
+
+.bdstyle6{
+	border-style: outset;
+}
+
+.borderdesign{
+	width: 200px;
+	height: 200px;
+
+/*	background: yellow;*/
+/*	background: #4287f5;*/
+	background-color: orange;
+
+	border-style: solid;
+
+/*	border-radius: 50%;*/
+/*	border-radius: 150px;*/
+
+/*	               lt/rb rt/lb      a pair of, closewise atine twar*/
+/*	border-radius: 10px 50px;*/
+
+/*				 lt    rt     rb     lb*/
+/*border-radius: 20px 50px 100px 200px ;*/
+
+
+/*	short hand yay		bsc*/
+/*	border:5px dashed red;*/
+	border:3px dashed #4287f5;
+
+}
+
+ul{
+/*	list-style-type: none;*/
+/*	list-style: none;*/
+
+/*			border style color */
+/*	border: 1px solid orange;*/
+
+}
+
+li{
+/*	border: 1px solid orange;*/
+
+	border: 1px;
+	border-style: dashed;
+	border-color: orange;
+
+
+	list-style-type: circle;
+/*	list-style-type: square;
+	list-style-type: decimal;*/
+/*	list-style-type: decimal-leading-zero;*/
+
+
+	list-style-position: inside;
+/*	list-style-position: outside; outside is default*/
+
+}
+
+
+
+/*Attribute selector*/
+input[type="text"]{
+	width: 300px;
+	background-color: green;
+	color: #fff;
+	border-radius: 10px;
+}
+
+input[type="password"],input[type="email"]{
+	background-color: blue;
+	color: #fff;
+	border-radius: 10px;
+}
+
+
+body{
+/*uniform resource locator (URL)*/
+	background-image: url(./../img/fav/logo.png.png);
+/*	background-repeat: repeat; default*/
+	background-repeat: no-repeat;
+	background-position: center;
+/*	background-position: left;*/
+/*	background-position: right;*/
+/*	background-position: top;*/
+/*	background-position: bottom;*/
+
+/*	background-position: right top;*/
+/*	background-position: left top;*/
+/*	background-position: right bottom;*/
+/*	background-position: left botttom;*/
+
+/*	background-attachment: fixed;*/
+	background-attachment: scroll;
+
+}
+
+
+
+

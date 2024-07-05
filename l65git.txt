@@ -1,0 +1,63 @@
+=>git
+
+=One times
+after git install
+git
+git --version				( git version 2.39.2 )
+
+git config --global user.name "Dean Azazel"
+git config user.name
+
+git config --global user.email "datalandtechnology@gmail.com"
+git config user.email
+
+=>SSH ( Secure Shell )
+ssh-keygen
+
+ssh -T git@github.com       (we can check ssh is successful or not by this comment)
+
+
+
+=>github
+(1 project 1 time)
+git init
+git remote add origin "git@github.com:Dean-Azazel/pttsoftware.git"
+
+
+
+
+
+(as you like)
+git status
+git add -A   		(git add all or *)
+git status
+git commit -m "my first project"
+git push -u origin master
+
+
+
+=>Update
+git status
+git add *
+git status
+git commit -m "title modified 12/march/2024 22:50"
+git status
+git push -u origin master
+
+
+
+-------------------------------
+
+=>Clone
+
+git clone (url)
+
+
+=>Pull
+create folder
+git init
+git remote add origin (url)
+git pull origin main
+
+
+------------------------------

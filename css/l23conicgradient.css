@@ -1,0 +1,163 @@
+.circle1,.circle2,.circle3,.circle4,.circle5{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+
+.circle1{
+	background: conic-gradient(yellow,green,red,pink);
+}
+
+.circle2{
+	background: conic-gradient(#42f5d4,#d742f5,#51f542,#42d7f5);
+}
+
+.circle3{
+	background: conic-gradient(
+		rgba(122, 150, 119, 0.51),
+		rgba(100, 62, 38, 0.08),
+		rgba(161, 169, 164, 0.34),
+		rgba(77, 169, 164, 0.48)
+	);
+}
+
+.circle4{
+	background: conic-gradient(
+		hsla(124, 29%, 29%, 0.55),
+		hsla(267, 70%, 58%, 0.55),
+		hsl(296, 85%, 72%),
+		hsl(358, 91%, 72%)
+	);
+}
+
+.circle5{
+	background: conic-gradient(
+		red 40% ,
+		yellow 0% 50%,
+		green 0% 80%,
+		blue 0% 100%
+	);
+}
+
+.circle6{
+	width: 200px;
+	height: 200px;
+
+	background: linear-gradient(
+		45deg,
+		red 20%,
+		yellow 0% 30%,
+		blue 0% 50%,
+		green 0% 100%
+	);
+}
+
+
+.boxone{
+	width: 600px;
+	height: 300px;
+	background: green;
+
+	
+
+	display: flex;
+/*		hz center*/
+	justify-content: center;
+/*	    vt center*/
+	align-items: center;
+
+/*	display: grid;*/
+/*	place-items: center;*/
+
+	position: relative;
+
+}
+
+
+.boxone .div1{
+	width: 300px;
+	height: 300px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+
+	position: absolute;
+/*	left: 0;*/
+/*	top: 0;*/
+/*	right bottom pay sayar ma lo*/
+
+	z-index: 2;
+
+}
+
+.boxone .div2{
+	width: 320px;
+	height: 320px;
+/*	background-color: steelblue;*/
+
+/*	background: linear-gradient(red,orange);*/
+	background: conic-gradient(
+		red,
+		violet 30%,
+		red 0%,
+		blue 70%,
+		red 0%,
+		yellow 100%
+	);
+
+	color: #fff;
+	border-radius: 50%;
+
+	position: absolute;
+
+	z-index: 1;
+/*z-index: value myar tr a paw yout;*/
+}
+
+.pointercontainer{
+	width: 20px;
+	height: 200px;
+/*	background-color: gray;*/
+
+	position: absolute;
+	top: -50px;
+
+	z-index: 3;
+
+	animation-name: myani;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+
+	transform-origin: bottom;
+}
+
+.pointer{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+
+	display: block;
+}
+
+@keyframes myani{
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		transform: rotate(360deg);
+	}
+
+	/*0%{
+		transform: rotate(0turn);
+	}
+
+	100%{
+		transform: rotate(-1turn);
+	}
+}*/

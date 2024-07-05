@@ -1,0 +1,154 @@
+/*Font Integrte*/
+/*(i) Local Machine Integration*/ 
+/*(ii) Global Machine Integration or Project Folder Integration*/
+
+/**{
+	cursor: pointer;
+}*/
+
+/**{
+	color: red;
+	cursor: pointer;
+}*/
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');*/
+@import url('./l17addfile.css');
+
+
+/*universal selector  always in top*/
+
+*{
+	cursor: pointer;
+}
+
+
+@font-face{
+	font-family: Stick;
+	src: url('./../fonts/Stick/Stick-Regular.ttf');
+
+}
+
+
+@font-face{
+	font-family: efg;
+	src: local('AkayaTelivigala-Regular'), url('./../fonts/Akaya_Telivigala/AkayaTelivigala-Regular.ttf') format('woff');
+}
+
+
+
+.p2{
+	color: red !important;
+	font-size: 50px;
+}
+
+
+
+/*(i) Local Machine Integration Useless*/ 
+
+/*body {
+	font-family: Arial;
+}
+*/
+
+/*.p1 {
+	font-family: Arial;
+}
+
+.p2 {
+	font-family: "Time New Roman";
+}
+
+.p3 {
+	font-family: Century, Arial, "Time New Roman";
+}*/
+
+
+/*(ii) Global Machine Integration or Project Folder Integration*/
+
+/*.p3{
+	font-family: Century, Arial, "Time New Roman";
+}
+*/
+
+/*body {
+	font-family: 'Stick', sans-serif;
+}
+*/
+
+
+
+.p1,.p4{
+	font-family: Stick, sans-serif;
+}
+
+.p2{
+	font-family: efg;
+	color: blue;
+}
+
+
+.p3{
+	font-family: "Akaya Telivigala", sans-serif;
+	color: blue;
+}
+
+
+.clickme {
+	text-decoration: none;
+	color: green;
+}
+
+
+/*pseudo class*/
+.clickme:hover {
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+
+.clickme:visited {
+	color: red;
+}
+
+.menutext{
+	font-family: Arial;
+	background-color: green;
+	text-decoration: none;
+	color: #fff;
+
+/*	padding: 10px;*/
+/*				tb lr	*/
+/*	padding: 10px 20px;*/
+
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+
+	border-radius: 10px;
+
+/*	transition: all 2s;*/
+/*	transition: background-color 2s;*/
+	transition: background-color 2s, color 5s;
+}
+
+
+.menutext:hover{
+	background-color: orange;
+	color: #000;
+}
+
+.imgdesign{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+
+	transition: all 1s;
+}
+
+.imgdesign:hover{
+	width: 100px;
+	height: 100px;
+}
